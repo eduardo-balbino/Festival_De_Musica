@@ -6,7 +6,7 @@ Use exatamente esta estrutura:
 
 **Dupla:** Eduardo Balbino Valença e Leonardo Mendes
 
-**Site publicado:** [COLOCAR LINK DA VERCEL DEPOIS]
+**Site publicado:** https://festival-de-musica-dun.vercel.app/
 
 ## Briefing
 
@@ -36,23 +36,13 @@ Descreva um público de aproximadamente 16 a 30 anos interessado em música elet
 
 **Inter:** utilizada nos textos por ser simples e fácil de ler.
 
-### Referências visuais
-
-Inclua 3 sites reais como referências de design e explique brevemente o que foi observado em cada um.
-
-Use como referências:
-
-1. https://www.awwwards.com/ — inspiração para composição e apresentação visual.
-2. https://www.coachella.com/ — inspiração para identidade visual de festival e organização de informações.
-3. https://www.sonarfestival.com/ — inspiração para estética de festival de música eletrônica.
-
 ## Antes e depois
 
 ![Antes](img/antes.png)
 
 ![Depois](img/depois.png)
 
-Explique brevemente que a primeira versão foi gerada com IA e posteriormente refinada por meio de novos prompts.
+
 
 ## Os 4 prompts que mais fizeram diferença
 
@@ -72,24 +62,3 @@ Explique brevemente que a primeira versão foi gerada com IA e posteriormente re
 * Inteligência Artificial
 * GitHub
 * Vercel
-
-## Estrutura do projeto
-
-Explique brevemente a função de:
-
-* index.html
-* lineup.html
-* ingressos.html
-* informacoes.html
-* faq.html
-* style.css
-* README.md
-* img/
-
-Regras:
-
-* gere somente o conteúdo completo do `README.md`
-* use Markdown válido
-* não invente o link da Vercel
-* mantenha `[COLOCAR LINK DA VERCEL DEPOIS]` como marcador
-* mantenha `[NOME 1]` e `[NOME 2]` como marcadores

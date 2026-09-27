@@ -1330,6 +1330,18 @@ p {
 }
 
 
+.faq-header .header-content {
+    gap: 48px;
+}
+
+.faq-header .main-nav {
+    gap: 32px;
+}
+
+.faq-header .header-button {
+    margin-left: 16px;
+}
+
 /* =========================================================
    16. FOOTER
    ========================================================= */

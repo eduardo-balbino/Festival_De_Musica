@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,23 +21,40 @@
     <header class="site-header">
         <div class="container header-content">
 
-            <a href="index.html" class="logo">VÉRTICE.</a>
+            <a href="index.html" class="logo" aria-label="VÉRTICE Festival - Página inicial">
+                VÉRTICE<span>.</span>
+            </a>
 
             <nav class="main-nav" aria-label="Navegação principal">
-                <a href="index.html">Início</a>
-                <a href="lineup.html">Line-up</a>
-                <a href="ingressos.html">Ingressos</a>
-                <a href="informacoes.html">Informações</a>
-                <a href="faq.html">FAQ</a>
+                <ul>
+                    <li>
+                        <a href="index.html">Início</a>
+                    </li>
+
+                    <li>
+                        <a href="lineup.html">Line-up</a>
+                    </li>
+
+                    <li>
+                        <a href="ingressos.html">Ingressos</a>
+                    </li>
+
+                    <li>
+                        <a href="informacoes.html" class="active">Informações</a>
+                    </li>
+
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                </ul>
             </nav>
 
-            <a href="ingressos.html" class="button button-primary header-button">
+            <a href="ingressos.html" class="header-button">
                 Comprar ingresso
             </a>
 
         </div>
     </header>
-
 
     <main>
 
@@ -212,52 +232,30 @@
                             <div class="form-group">
                                 <label for="nome">Nome</label>
 
-                                <input
-                                    type="text"
-                                    id="nome"
-                                    name="nome"
-                                    placeholder="Seu nome"
-                                    required
-                                >
+                                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
                             </div>
 
 
                             <div class="form-group">
                                 <label for="email">E-mail</label>
 
-                                <input
-                                    type="email"
-                                    id="email"
-                                    name="email"
-                                    placeholder="seu@email.com"
-                                    required
-                                >
+                                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
                             </div>
 
 
                             <div class="form-group">
                                 <label for="assunto">Assunto</label>
 
-                                <input
-                                    type="text"
-                                    id="assunto"
-                                    name="assunto"
-                                    placeholder="Assunto da mensagem"
-                                    required
-                                >
+                                <input type="text" id="assunto" name="assunto" placeholder="Assunto da mensagem"
+                                    required>
                             </div>
 
 
                             <div class="form-group">
                                 <label for="mensagem">Mensagem</label>
 
-                                <textarea
-                                    id="mensagem"
-                                    name="mensagem"
-                                    rows="7"
-                                    placeholder="Digite sua mensagem..."
-                                    required
-                                ></textarea>
+                                <textarea id="mensagem" name="mensagem" rows="7" placeholder="Digite sua mensagem..."
+                                    required></textarea>
                             </div>
 
                         </div>
@@ -351,11 +349,12 @@
             <div class="footer-bottom">
                 <span>© 2026 VÉRTICE Festival</span>
                 <span>São Paulo — SP</span>
-                <span>Dupla: Edu &amp; [Nome do integrante]</span>
+                <span>Dupla:Eduardo Balbino &amp; Leonardo Mendes</span>
             </div>
 
         </div>
     </footer>
 
 </body>
+
 </html>
